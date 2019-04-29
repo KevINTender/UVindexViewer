@@ -1,0 +1,67 @@
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost" android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout android:orientation="vertical"
+        android:layout_width="fill_parent" android:layout_height="fill_parent"
+        android:gravity="bottom">
+        <TabWidget android:id="@android:id/tabs"
+            android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <LinearLayout android:id="@+id/tabbar"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:background="@color/white"
+            android:elevation="25dp"
+            android:layout_height="75dp">
+            <Button android:id="@+id/homeTab"
+                android:layout_alignParentTop="true"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@color/white"
+                android:clickable="true"
+                android:textSize="25dp"
+                android:text="12"
+                android:textColor="@color/homeColor"></Button>
+            <Button android:id="@+id/forecastTab"
+                android:layout_alignParentTop="true"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:background="@color/white"
+                android:clickable="true"
+                android:textSize="25dp"
+                android:text="12"
+                android:textColor="@color/textdefault"></Button>
+            <Button android:id="@+id/tanTab"
+                android:layout_alignParentTop="true"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:background="@color/white"
+                android:clickable="true"
+                android:textSize="25dp"
+                android:text="12"
+                android:textColor="@color/textdefault"></Button>
+            <Button android:id="@+id/settingTab"
+                android:layout_alignParentTop="true"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:background="@color/white"
+                android:clickable="true"
+                android:textSize="25dp"
+                android:text="12"
+                android:textColor="@color/textdefault"></Button>
+
+        </LinearLayout>
+
+        <FrameLayout android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent" android:layout_height="fill_parent"
+            android:layout_above="@+id/tabbar" />
+
+    </RelativeLayout>
+</TabHost>

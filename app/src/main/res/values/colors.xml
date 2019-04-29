@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00A4E1</color>
+    <color name="colorPrimaryDark">#1e1e1e</color>
+    <color name="colorAccent">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="homeColor">#e10b00</color>
+    <color name="forecastColor">#d17a1d</color>
+    <color name="tanColor">#efda1f</color>
+    <color name="settingsColot">#35d11d</color>
+    <color name="textdefault">#868686</color>
+
+</resources>

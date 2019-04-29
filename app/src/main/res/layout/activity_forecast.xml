@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+    <RelativeLayout
+        android:id="@+id/forecastUV1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/homeUVIndexInfo"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="UV index"
+            android:textSize="20dp"
+            android:textColor="@color/forecastColor"
+            android:textStyle="bold"
+
+            android:gravity="center"/>
+        <TextView
+            android:layout_below="@+id/homeUVIndexInfo"
+            android:id="@+id/homeUVIndex"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textSize="50dp"
+            android:text="10"
+            android:gravity="center"
+            android:textColor="@color/forecastColor" />
+        <TextView
+            android:layout_below="@+id/homeUVIndex"
+            android:id="@+id/homeUVdate"
+            android:layout_width="100dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="29.04.2019"
+            android:textSize="15dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/forecastUV2"
+        android:layout_below="@+id/forecastUV1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/homeUVIndexInfo2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="UV index"
+            android:textSize="20dp"
+            android:textColor="@color/forecastColor"
+            android:textStyle="bold"
+
+            android:gravity="center"/>
+        <TextView
+            android:layout_below="@+id/homeUVIndexInfo2"
+            android:id="@+id/homeUVIndex2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textSize="50dp"
+            android:text="10"
+            android:gravity="center"
+            android:textColor="@color/forecastColor" />
+        <TextView
+            android:layout_below="@+id/homeUVIndex2"
+            android:id="@+id/homeUVdate2"
+            android:layout_width="100dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="29.04.2019"
+            android:textSize="15dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/forecastUV3"
+        android:layout_below="@+id/forecastUV2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/homeUVIndexInfo3"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="UV index"
+            android:textSize="20dp"
+            android:textColor="@color/forecastColor"
+            android:textStyle="bold"
+
+            android:gravity="center"/>
+        <TextView
+            android:layout_below="@+id/homeUVIndexInfo3"
+            android:id="@+id/homeUVIndex3"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textSize="50dp"
+            android:text="10"
+            android:gravity="center"
+            android:textColor="@color/forecastColor" />
+        <TextView
+            android:layout_below="@+id/homeUVIndex3"
+            android:id="@+id/homeUVdate3"
+            android:layout_width="100dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="29.04.2019"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
